@@ -8,6 +8,11 @@ jupyter = "*"
 numpy = "*"
 pandas = "*"
 matplotlib = "*"
+p5py = "*"
+pep517 = "*"
+cffi = "*"
+pip = "*"
+setuptools = "*"
 
 [dev-packages]
 

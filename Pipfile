@@ -13,6 +13,7 @@ pep517 = "*"
 cffi = "*"
 pip = "*"
 setuptools = "*"
+scipy = "*"
 
 [dev-packages]
 

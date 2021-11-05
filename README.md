@@ -5,8 +5,11 @@
 2. Install Python 3.8.x using your method of choice (if not installed already)
 3. Change directories into the repository: `cd kaggle-nfl-data-bowl-2022`
 4. Install pipenv: `python -m pip install --upgrade --user pipenv`
-5. Install dependencies for this project: `pipenv install`
-6. Create a directory titled `input` at the root of the repository and download
+5. (macOS only) In order for `scipy` installation to succeed on macOS > 10, the BLAS and LAPACK libraries
+are required. To install on macOS: `brew install openblas`
+6. (macOS only) Set the OPENBLAS environment variable: `export OPENBLAS=$(brew --prefix openblas)`
+7. Install dependencies for this project: `pipenv install`
+8. Create a directory titled `input` at the root of the repository and download
 the [competition data](https://www.kaggle.com/c/nfl-big-data-bowl-2022/data) from
 Kaggle there. Your files should look something like this:
 
